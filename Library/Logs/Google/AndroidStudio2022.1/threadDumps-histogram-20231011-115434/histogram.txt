@@ -1,0 +1,105 @@
+ num     #instances         #bytes  class name (module)
+-------------------------------------------------------
+   1:       5739296      498894584  [I (java.base@11.0.15)
+   2:       7750809      248025888  com.intellij.openapi.vfs.newvfs.impl.VirtualFileImpl
+   3:       5585794      223431760  com.intellij.openapi.vfs.newvfs.impl.VirtualDirectoryImpl
+   4:       5662794      181209408  com.intellij.openapi.vfs.newvfs.impl.VfsData$DirectoryData
+   5:       1342732      173878776  [B (java.base@11.0.15)
+   6:          6656      119562680  [J (java.base@11.0.15)
+   7:        267063      117095064  [Ljava.lang.Object; (java.base@11.0.15)
+   8:       1325605       31814520  java.lang.String (java.base@11.0.15)
+   9:        534070       17090240  java.util.HashMap$Node (java.base@11.0.15)
+  10:        312099       12483960  com.intellij.util.lang.ImmutableZipEntry
+  11:        387986        9311664  com.intellij.openapi.vcs.LocalFilePath
+  12:            73        8674192  [Lcom.intellij.concurrency.ConcurrentIntObjectHashMap$Node;
+  13:         57779        6800936  java.lang.Class (java.base@11.0.15)
+  14:        185504        5936128  java.util.concurrent.ConcurrentHashMap$Node (java.base@11.0.15)
+  15:         22861        4839784  [Ljava.util.HashMap$Node; (java.base@11.0.15)
+  16:        134436        4301952  com.jetbrains.cidr.lang.types.OCReferenceTypeSimple
+  17:        131618        4211776  com.jetbrains.cidr.lang.symbols.OCSymbolReference$GlobalReference
+  18:         49199        3935920  com.jetbrains.cidr.lang.symbols.cpp.OCDeclaratorSymbolImpl
+  19:           396        3751960  [Lcom.intellij.util.lang.ImmutableZipEntry;
+  20:         88292        3531680  com.intellij.util.containers.ConcurrentWeakKeySoftValueHashMap$WeakKey
+  21:        147111        3530664  java.util.ArrayList (java.base@11.0.15)
+  22:         88119        2819808  com.intellij.util.containers.ConcurrentWeakKeyWeakValueHashMap$WeakValue
+  23:         37149        2674728  com.jetbrains.cidr.lang.symbols.cpp.OCFunctionSymbol
+  24:          2318        2121312  [Ljava.util.concurrent.ConcurrentHashMap$Node; (java.base@11.0.15)
+  25:         50990        2039600  java.util.LinkedHashMap$Entry (java.base@11.0.15)
+  26:          1208        1932864  [C (java.base@11.0.15)
+  27:         60032        1921024  com.intellij.util.containers.IntObjectLRUMap$MapEntry
+  28:         38285        1531400  com.jetbrains.cidr.lang.types.OCFunctionType
+  29:         34079        1363160  java.util.TreeMap$Entry (java.base@11.0.15)
+  30:         32497        1181728  [Ljava.lang.String; (java.base@11.0.15)
+  31:         49116        1178784  groovyjarjarantlr4.v4.runtime.atn.ATNConfig
+  32:         33430        1069760  com.intellij.concurrency.ConcurrentIntObjectHashMap$Node
+  33:         30073         962336  com.intellij.openapi.vfs.newvfs.impl.VfsData$Segment
+  34:         29658         949056  com.intellij.openapi.vfs.impl.local.WatchRootsManager$SymlinkData
+  35:         11124         800928  java.lang.reflect.Field (java.base@11.0.15)
+  36:         33036         792864  com.jetbrains.cidr.lang.symbols.OCQualifiedName
+  37:         23493         751776  java.util.Hashtable$Entry (java.base@11.0.15)
+  38:         13016         728896  java.util.LinkedHashMap (java.base@11.0.15)
+  39:            22         721248  [Ljava.util.concurrent.ForkJoinTask; (java.base@11.0.15)
+  40:         14770         708960  java.util.HashMap (java.base@11.0.15)
+  41:         10486         671104  it.unimi.dsi.fastutil.objects.Object2ObjectOpenHashMap
+  42:          7239         637032  java.lang.reflect.Method (java.base@11.0.15)
+  43:         11294         632464  com.jetbrains.cidr.lang.symbols.cpp.OCTypeParameterTypeSymbol
+  44:         25037         600888  com.intellij.openapi.vfs.impl.local.WatchRootsManager$WatchSymlinkRequest
+  45:         37118         593888  java.lang.Object (java.base@11.0.15)
+  46:         14145         565800  com.jetbrains.cidr.lang.types.OCPointerType
+  47:         13880         555200  com.jetbrains.cidr.lang.symbols.OCSymbolReference$TemplateArgumentsReference
+  48:         13512         540480  java.lang.ref.SoftReference (java.base@11.0.15)
+  49:         11080         531840  java.lang.invoke.MemberName (java.base@11.0.15)
+  50:         13230         529200  org.jdom.Attribute
+  51:         30297         484752  java.util.concurrent.atomic.AtomicIntegerArray (java.base@11.0.15)
+  52:         30233         483728  java.util.concurrent.atomic.AtomicReferenceArray (java.base@11.0.15)
+  53:         11199         447960  com.jetbrains.cidr.lang.symbols.cpp.OCMacroSymbol
+  54:         18117         434808  com.intellij.util.SmartList
+  55:          6663         426432  it.unimi.dsi.fastutil.ints.Int2ObjectOpenHashMap
+  56:         15854         416232  [Ljava.lang.Class; (java.base@11.0.15)
+  57:          6392         409088  com.intellij.ide.projectView.PresentationData
+  58:         10016         400640  org.jdom.ContentList
+  59:         10015         400600  org.jdom.Element
+  60:            33         388624  [Lcom.intellij.util.containers.IntObjectLRUMap$MapEntry;
+  61:         12058         385856  com.intellij.util.xml.dom.XmlElement
+  62:          2639         379896  [Ljava.lang.ClassValue$Entry; (java.base@11.0.15)
+  63:          3631         377624  com.jetbrains.cidr.lang.symbols.cpp.OCStructSymbol
+  64:          9395         375800  org.jetbrains.plugins.textmate.language.syntax.SyntaxNodeDescriptorImpl
+  65:          9355         374200  java.util.EnumMap (java.base@11.0.15)
+  66:          5829         373056  java.util.concurrent.ConcurrentHashMap (java.base@11.0.15)
+  67:          9247         369880  java.lang.invoke.MethodType (java.base@11.0.15)
+  68:          8906         356240  com.intellij.openapi.extensions.ExtensionDescriptor
+  69:          4371         349680  com.intellij.openapi.vfs.newvfs.events.VFileContentChangeEvent
+  70:         10546         337472  com.jetbrains.cidr.lang.symbols.expression.OCReferenceExpressionSymbol
+  71:         10474         335168  java.lang.ref.WeakReference (java.base@11.0.15)
+  72:          7971         318840  com.intellij.reference.SoftReference
+  73:          9286         297152  java.lang.invoke.MethodType$ConcurrentWeakInternSet$WeakEntry (java.base@11.0.15)
+  74:          8690         278080  org.jdom.AttributeList
+  75:           669         274368  [S (java.base@11.0.15)
+  76:          8162         267792  [Lorg.jdom.Attribute;
+  77:          2939         258632  com.intellij.ide.projectView.impl.nodes.PackageElementNode
+  78:          3020         257568  [Ljava.util.WeakHashMap$Entry; (java.base@11.0.15)
+  79:          7971         255072  com.jetbrains.cidr.lang.symbols.ComplexTextRange
+  80:          6345         253800  java.util.WeakHashMap$Entry (java.base@11.0.15)
+  81:          6211         248440  java.util.Collections$SingletonMap (java.base@11.0.15)
+  82:          1701         244944  org.codehaus.groovy.ast.ClassNode
+  83:          6123         244920  com.intellij.codeInspection.ex.ScopeToolState
+  84:          4963         238224  com.intellij.openapi.extensions.impl.XmlExtensionAdapter
+  85:          5941         237640  kotlin.reflect.jvm.internal.impl.protobuf.SmallSortedMap$1
+  86:          9754         234096  com.jetbrains.cidr.lang.symbols.OCQualifiedNameWithArguments
+  87:          9646         231504  java.lang.invoke.ResolvedMethodName (java.base@11.0.15)
+  88:         14363         229808  java.lang.Integer (java.base@11.0.15)
+  89:          6791         217312  java.lang.invoke.DirectMethodHandle (java.base@11.0.15)
+  90:          1586         216304  [Ljava.util.Hashtable$Entry; (java.base@11.0.15)
+  91:           141         214912  [D (java.base@11.0.15)
+  92:          4465         214320  com.intellij.openapi.extensions.impl.XmlExtensionAdapter$SimpleConstructorInjectionAdapter
+  93:          8898         213552  groovyjarjarantlr4.v4.runtime.atn.SingletonPredictionContext
+  94:          5170         206800  com.jetbrains.cidr.lang.symbols.expression.OCLiteralExpressionSymbol
+  95:          3197         204608  com.esotericsoftware.kryo.serializers.UnsafeCacheFields$UnsafeObjectField
+  96:          6336         202752  com.jetbrains.cidr.lang.types.OCCppReferenceType
+  97:          5045         201800  com.intellij.util.containers.hash.LinkedHashMap$Entry
+  98:          4151         199248  com.jetbrains.cidr.lang.util.OCNumber
+  99:           119         198680  [[Lcom.intellij.util.lang.Loader;
+ 100:          6123         195936  com.intellij.codeInspection.ex.ToolsImpl
+ 101:          5965         190880  com.intellij.psi.impl.PsiCachedValueImpl
+[...]
+Total      31766717     1759870952
